@@ -1,17 +1,48 @@
 [
   {
-    "id": 1,
-    "name": "Sport",
-    "target": "5 stars"
+    "filterName": "Game Genre",
+    "filterParam": "genre",
+    "type": "checkbox",
+    "options": [
+      {
+        "name": "Arcade",
+        "value": "arcade"
+      },
+      {
+        "name": "Shooter",
+        "value": "shooter"
+      },
+      {
+        "name": "Sport",
+        "value": "sport"
+      }
+    ]
   },
   {
-    "id": 2,
-    "name": "Shooter",
-    "target": "5 stars"
-  },
-  {
-    "id": 3,
-    "name": "Arcade",
-    "target": "5 stars"
+    "filterName": "Rating",
+    "filterParam": "rating",
+    "type": "radio",
+    "options": [
+      {
+        "name": "5 stars",
+        "value": "five-stars"
+      },
+      {
+        "name": "4 stars and above",
+        "value": "four-stars-and-up"
+      },
+      {
+        "name": "3 stars and above",
+        "value": "three-stars-and-up"
+      },
+      {
+        "name": "2 stars and above",
+        "value": "two-stars-and-up"
+      },
+      {
+        "name": "1 star and above",
+        "value": "one-star-and-up"
+      }
+    ]
   }
 ]

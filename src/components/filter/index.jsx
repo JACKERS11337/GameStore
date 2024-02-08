@@ -1,39 +1,42 @@
-import { useState } from "react";
 import "./style.scss";
 import filterData from "../../data/filter.json";
 
 export const Filter = () => {
-  const [activeGame, setActiveGame] = useState();
-  const [activeRating, setActiveRating] = useState();
-
   return (
     <div className="filter-container">
       <div className="filter-content">
-        <div className="filter-game">
-          <h4> Game Genre</h4>
-
-          {filterData.map((game, index) => {
-            const active = index === activeGame ? "active" : "";
+        <div>
+          {filterData.map((item) => {
             return (
-              <div>
-                <label onClick={() => setActiveGame(index)}>
-                  <span key={game.id} className={active}></span>
-                  {game.name}
-                </label>
-              </div>
-            );
-          })}
-        </div>
-        <div className="filter-rating">
-          <h4> Rating</h4>
-          {filterData.map((game, index) => {
-            const active = index === activeRating ? "active" : "";
-            return (
-              <div>
-                <label onClick={() => setActiveRating(index)}>
-                  <span key={game.id} className={active}></span>
-                  {game.target}
-                </label>
+              <div key={item.filterParam}>
+                <h4>{item.filterName}</h4>
+                <form>
+                  {item.type === "checkbox"
+                    ? item.options.map((option) => {
+                        return (
+                          <label key={option.value}>
+                            <input
+                              value={option.value}
+                              name={item.filterName}
+                              type={"checkbox"}
+                            />
+                            <span>{option.name}</span>
+                          </label>
+                        );
+                      })
+                    : item.options.map((option) => {
+                        return (
+                          <label key={option.value}>
+                            <input
+                              value={option.value}
+                              name={item.filterName}
+                              type={"radio"}
+                            />
+                            <span>{option.name}</span>
+                          </label>
+                        );
+                      })}
+                </form>
               </div>
             );
           })}
