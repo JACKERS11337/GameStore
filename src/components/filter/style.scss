@@ -1,0 +1,71 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  border: 2px solid rgb(253, 215, 0);
+  border-radius: 10px;
+  background-color: #111;
+  margin: 40px;
+  color: #fff;
+
+  .filter-content {
+    padding: 15px 15px;
+
+    .filter-game {
+      h4 {
+        margin-bottom: 15px;
+      }
+
+      div {
+        margin-bottom: 10px;
+
+        label {
+          cursor: pointer;
+
+          span {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-color: #000;
+            border: 1px solid rgb(178, 187, 0);
+            margin-right: 5px;
+            vertical-align: text-top;
+          }
+          .active {
+            background-color: rgb(178, 187, 0);
+            border: 1px solid #fff;
+          }
+        }
+      }
+    }
+    .filter-rating {
+      h4 {
+        margin: 15px 0px;
+      }
+
+      div {
+        margin-bottom: 10px;
+
+        label {
+          cursor: pointer;
+
+          span {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #000;
+            border: 1px solid rgb(242, 255, 0);
+            border-radius: 50%;
+            margin-right: 5px;
+            vertical-align: text-top;
+          }
+          .active {
+            background-color: rgb(178, 187, 0);
+            border: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}
