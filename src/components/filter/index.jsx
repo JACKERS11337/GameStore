@@ -10,12 +10,16 @@ export const Filter = () => {
             return (
               <div key={item.filterParam}>
                 <h4>{item.filterName}</h4>
-                <div>
+                <form>
                   {item.type === "checkbox"
                     ? item.options.map((option) => {
                         return (
                           <label key={option.value}>
-                            <input value={option.value} type={"checkbox"} />
+                            <input
+                              value={option.value}
+                              name={item.filterName}
+                              type={"checkbox"}
+                            />
                             <span>{option.name}</span>
                           </label>
                         );
@@ -23,12 +27,16 @@ export const Filter = () => {
                     : item.options.map((option) => {
                         return (
                           <label key={option.value}>
-                            <input value={option.value} type={"radio"} />
+                            <input
+                              value={option.value}
+                              name={item.filterName}
+                              type={"radio"}
+                            />
                             <span>{option.name}</span>
                           </label>
                         );
                       })}
-                </div>
+                </form>
               </div>
             );
           })}
