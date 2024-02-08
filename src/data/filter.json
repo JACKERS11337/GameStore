@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Sport",
+    "target": "5 stars"
+  },
+  {
+    "id": 2,
+    "name": "Shooter",
+    "target": "5 stars"
+  },
+  {
+    "id": 3,
+    "name": "Arcade",
+    "target": "5 stars"
+  }
+]
