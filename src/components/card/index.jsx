@@ -1,28 +1,26 @@
-import "./styled.scss";
+import "./style.scss";
 import { FaStar } from "react-icons/fa";
 
-export const Card = ({ card }) => {
-  console.log(card[0].rating);
+export const Product = ({ product }) => {
   return (
-    <div className="containerr">
+    <div className="product-container">
       <div className="content">
-        <img src={card[0].image} alt="game" className="image" />
-        <div className="name">{card[0].name}</div>
-        <div className="rating">
+        <img src={product.image} alt="product" className="image-product" />
+        <div className="name-product">{product.name}</div>
+        <div className="rating-product">
           <div>
             {[...Array(5)].map((star, index) => (
               <FaStar
-                key={card[0].id}
-                className={index < card[0].rating ? "star active" : "star"}
+                key={product.id}
+                className={index < product.rating ? "star active" : "star"}
               />
             ))}
           </div>
-          <p>{card[0].rating}/5 stars</p>
+          <p>{product.rating}/5 stars</p>
         </div>
-        <div className="description">{card[0].description}</div>
-
+        <div className="description-product">{product.description}</div>
         <button>
-          {card[0].price} <span>Add to cart</span>
+          {product.price} <span>Add to cart</span>
         </button>
       </div>
     </div>
