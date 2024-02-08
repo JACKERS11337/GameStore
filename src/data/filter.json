@@ -6,7 +6,7 @@
     "options": [
       {
         "name": "Arcade",
-        "value": "sport"
+        "value": "arcade"
       },
       {
         "name": "Shooter",

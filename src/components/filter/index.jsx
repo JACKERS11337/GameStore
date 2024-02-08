@@ -8,21 +8,21 @@ export const Filter = () => {
         <div>
           {filterData.map((item) => {
             return (
-              <div>
+              <div key={item.filterParam}>
                 <h4>{item.filterName}</h4>
                 <div>
                   {item.type === "checkbox"
                     ? item.options.map((option) => {
                         return (
-                          <label>
+                          <label key={option.value}>
                             <input value={option.value} type={"checkbox"} />
-                            <span key={option.name}>{option.name}</span>
+                            <span>{option.name}</span>
                           </label>
                         );
                       })
                     : item.options.map((option) => {
                         return (
-                          <label>
+                          <label key={option.value}>
                             <input value={option.value} type={"radio"} />
                             <span>{option.name}</span>
                           </label>
