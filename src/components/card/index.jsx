@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./style.scss";
 import { FaStar } from "react-icons/fa";
 
@@ -11,7 +12,7 @@ export const Product = ({ product }) => {
           <div>
             {[...Array(5)].map((star, index) => (
               <FaStar
-                key={product.id}
+                key={`${product.id}-ratingStar-${index}`}
                 className={index < product.rating ? "star active" : "star"}
               />
             ))}
