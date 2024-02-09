@@ -14,7 +14,7 @@ export const Modal = ({ children, openModal, onClose }) => {
   }, [openModal]);
 
   useClickOutside(modalRef, () => {
-    if (!openModal) onClose(false);
+    if (openModal) onClose(false);
   });
 
   console.log(modalRef);
