@@ -1,23 +1,38 @@
 import { createPortal } from "react-dom";
-import { Login } from "./login";
-import { CreateAccount } from "./create account";
-import React, { useState } from "react";
+import { useRef, useEffect } from "react";
+import useClickOutside from "../../hooks/useClickOutside";
 
-export const Modal = React.forwardRef((props, ref) => {
-  console.log(ref);
-  console.log(props);
+export const Modal = ({ children, openModal, onClose }) => {
+  const modalRef = useRef();
 
-  const [tab, setOpen] = useState("login");
+  useEffect(() => {
+    if (openModal) {
+      modalRef.current.showModal();
+    } else {
+      modalRef.current.close();
+    }
+  }, [openModal]);
+
+  useClickOutside(modalRef, () => {
+    if (!openModal) onClose(false);
+  });
+
+  console.log(modalRef);
+  console.log(openModal);
 
   return createPortal(
     <dialog
-      ref={ref}
-      open={props.open}
-      style={{ margin: "200px 0 200px 500px ", width: "400px" }}
+      ref={modalRef}
+      style={{
+        margin: "100px auto ",
+        width: "700px",
+        height: "500px",
+        zIndex: "999999999",
+        overflow: "hidden",
+      }}
     >
-      {tab === "login" && <Login onClick={setOpen} />}
-      {tab === "create-login" && <CreateAccount onClick={setOpen} />}
+      {children}
     </dialog>,
     document.getElementById("modal")
   );
-});
+};

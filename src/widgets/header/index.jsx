@@ -1,17 +1,20 @@
 import "./style.scss";
 import logo from "/logo.png";
 import { Modal } from "../../components/modal";
-import { useState, useRef } from "react";
-import useClickOutside from "../../hooks/useClickOutside";
+import { AuthModalBody } from "../../components/modal/modalContent";
+import { useState } from "react";
 
 export const Header = () => {
   const [openModal, setOpenModal] = useState(false);
-  const modalRef = useRef();
-  useClickOutside(modalRef, () => {
-    if (openModal) setOpenModal(false);
-  });
-  console.log(openModal);
-  console.log(modalRef);
+
+  function onOpen() {
+    document.body.style.overflow = "hidden";
+    setOpenModal(true);
+  }
+  function onClose() {
+    document.body.style.overflow = "unset";
+    setOpenModal(false);
+  }
 
   return (
     <header>
@@ -39,14 +42,19 @@ export const Header = () => {
           </ul>
         </nav>
         <div>
-          <button onClick={() => setOpenModal(true)}>Sing in</button>
-          <button onClick={() => setOpenModal(true)}>Register</button>
+          <button onClick={onOpen}>Sing in</button>
+          <button onClick={onOpen}>Register</button>
         </div>
         <div className="mobile-hamb">
           <span></span>
         </div>
       </div>
-      <Modal ref={modalRef} open={openModal} />
+
+      {openModal && (
+        <Modal openModal={openModal} onClose={onClose}>
+          <AuthModalBody />
+        </Modal>
+      )}
     </header>
   );
 };
