@@ -1,14 +1,19 @@
 import { useState } from "react";
 import "./style.scss";
+import { IoMdClose } from "react-icons/io";
 
-export const AuthModalBody = () => {
+export const AuthModalBody = ({ onClose }) => {
   const [tab, setTab] = useState("sing-in");
 
   return (
     <div className="modal-container">
       <div className="modal-text">
+        <div className="close" onClick={onClose}>
+          <IoMdClose />
+        </div>
         {tab === "sing-in" && <h4>Login</h4>}
         {tab === "sing-up" && <h4>Create Account</h4>}
+
         <div>
           <button onClick={() => setTab("sing-in")}>SING-IN</button>
           <button onClick={() => setTab("sing-up")}>SING-UP</button>

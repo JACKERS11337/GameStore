@@ -1,11 +1,12 @@
-import { Header } from "./widgets/header";
 import { PLP } from "./pages/PLP";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <PLP />
+      <Routes>
+        <Route path="/" element={<PLP />} />
+      </Routes>
     </>
   );
 }

@@ -3,41 +3,44 @@ import logo from "/logo.png";
 import { Modal } from "../../components/modal";
 import { AuthModalBody } from "../../components/modal/modalContent";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [openModal, setOpenModal] = useState(false);
 
   function onOpen() {
     document.body.style.overflow = "hidden";
+
     setOpenModal(true);
   }
   function onClose() {
     document.body.style.overflow = "unset";
+
     setOpenModal(false);
   }
 
   return (
     <header>
       <div className="container">
-        <a href="#">
+        <Link to="/">
           <img src={logo} alt="logo" />
-        </a>
+        </Link>
         <nav>
           <ul>
             <li>
-              <a href="#">SHOP</a>
+              <Link to="/">SHOP</Link>
             </li>
             <li>
-              <a href="#">COMMUNITY</a>
+              <Link to="/community">COMMUNITY</Link>
             </li>
             <li>
-              <a href="#">PROFILE</a>
+              <Link to="/profile">PROFILE</Link>
             </li>
             <li>
-              <a href="#">CHAT</a>
+              <Link to="/chat">CHAT</Link>
             </li>
             <li>
-              <a href="#">SUPPORT</a>
+              <Link to="/support">SUPPORT</Link>
             </li>
           </ul>
         </nav>
@@ -52,7 +55,7 @@ export const Header = () => {
 
       {openModal && (
         <Modal openModal={openModal} onClose={onClose}>
-          <AuthModalBody />
+          <AuthModalBody onClose={onClose} />
         </Modal>
       )}
     </header>

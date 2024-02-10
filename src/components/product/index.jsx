@@ -2,11 +2,13 @@
 import "./style.scss";
 import { FaStar } from "react-icons/fa";
 
-export const Product = ({ product }) => {
+export const Product = ({ ...product }) => {
   return (
     <div className="product-container">
+      <div>
+        <img src={product.image} alt="product" />
+      </div>
       <div className="content">
-        <img src={product.image} alt="product" className="image-product" />
         <div className="name-product">{product.name}</div>
         <div className="rating-product">
           <div>
