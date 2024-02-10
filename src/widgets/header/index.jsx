@@ -42,8 +42,8 @@ export const Header = () => {
           </ul>
         </nav>
         <div>
-          <button onClick={onOpen}>Sing in</button>
-          <button onClick={onOpen}>Register</button>
+          <button onClick={onOpen}>Sing-in</button>
+          <button onClick={onOpen}>Sing-up</button>
         </div>
         <div className="mobile-hamb">
           <span></span>

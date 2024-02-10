@@ -1,14 +1,11 @@
 import { Header } from "./widgets/header";
-import { Product } from "./components/card";
-import cardsData from "../src/data/cards.json";
+import { PLP } from "./pages/PLP";
 
 function App() {
   return (
     <>
       <Header />
-      <div style={{ display: "flex" }}>
-        <Product product={cardsData[0]} />
-      </div>
+      <PLP />
     </>
   );
 }

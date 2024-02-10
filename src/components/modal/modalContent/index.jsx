@@ -1,38 +1,43 @@
 import { useState } from "react";
+import "./style.scss";
 
 export const AuthModalBody = () => {
   const [tab, setTab] = useState("sing-in");
+
   return (
-    <div>
-      <div>
+    <div className="modal-container">
+      <div className="modal-text">
         {tab === "sing-in" && <h4>Login</h4>}
-        {tab === "register" && <h4>Create Account</h4>}
-
-        <button onClick={() => setTab("sing-in")}>Login</button>
-        <button onClick={() => setTab("register")}>Create Account</button>
-
+        {tab === "sing-up" && <h4>Create Account</h4>}
         <div>
-          <div>
-            <label htmlFor="email">Email</label>
-            <input type="text" id="email" placeholder="youremail@example.com" />
-          </div>
-          <div>
-            <label htmlFor="pass">Password</label>
-            <input type="text" id="pass" placeholder="password" />
-          </div>
-          {tab === "sing-in" && <button>LOGIN</button>}
+          <button onClick={() => setTab("sing-in")}>SING-IN</button>
+          <button onClick={() => setTab("sing-up")}>SING-UP</button>
         </div>
       </div>
 
-      {tab === "register" && (
+      <form>
         <div>
-          <div>
-            <label htmlFor="repeat-pass">Repeat password</label>
-            <input type="text" id="repeat-pass" placeholder="repeat password" />
-          </div>
-          <button>CREATE ACCOUNT</button>
+          <label htmlFor="email">Email</label>
+          <input type="text" id="email" placeholder="Youremail@example.com" />
         </div>
-      )}
+        <div>
+          <label htmlFor="pass">Password</label>
+          <input type="text" id="pass" placeholder="Password" />
+        </div>
+
+        {tab === "sing-up" && (
+          <div>
+            <label htmlFor="repeat-pass">Retype password</label>
+            <input type="text" id="repeat-pass" placeholder="Retype password" />
+          </div>
+        )}
+
+        <button>
+          {tab === "sing-in" && <span>LOGIN</span>}
+
+          {tab === "sing-up" && <span>CREATE</span>}
+        </button>
+      </form>
     </div>
   );
 };
