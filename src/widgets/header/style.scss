@@ -9,8 +9,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 99999;
-  background-color: #4eecfd;
+  z-index: 99;
+  background-color: #ffffff;
+  font-family: "Rubik", sans-serif;
 
   .container {
     max-width: 1220px;
@@ -45,6 +46,18 @@ header {
           color: #000;
         }
       }
+    }
+  }
+  div {
+    button {
+      font-family: "Rubik", sans-serif;
+      padding: 12px 25px;
+      border: 1px solid #000;
+      margin-left: 15px;
+      background-color: transparent;
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
     }
   }
 }
