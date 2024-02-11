@@ -5,7 +5,7 @@ export const CartPage = () => {
   return (
     <>
       <Header />
-      <div></div>
+      <div>Hi SANYA</div>
     </>
   );
 };
