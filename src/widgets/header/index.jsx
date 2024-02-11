@@ -1,7 +1,7 @@
 import "./style.scss";
 import logo from "/logo.png";
 import { Modal } from "../../components/modal";
-import { AuthModalBody } from "../../components/modal/modalContent";
+import { AuthModalBody } from "../../components/modal/authModalBody";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
