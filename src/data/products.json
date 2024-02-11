@@ -4,7 +4,7 @@
     "name": "Fifa 23",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
     "image": "/fifa.jpeg",
-    "price": "9.99$",
+    "price": "9.99",
     "rating": "4"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Grand Theft Auto V",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
     "image": "/gta-v.jpeg",
-    "price": "9.99$",
+    "price": "9.99",
     "rating": "5"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Fallout 4",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
     "image": "/fallout-4.jpg",
-    "price": "9.99$",
+    "price": "9.99",
     "rating": "5"
   },
   {
@@ -28,7 +28,7 @@
     "name": "UFC 3",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
     "image": "/ufc-3.jpg",
-    "price": "4.99$",
+    "price": "4.99",
     "rating": "3"
   },
   {
@@ -36,7 +36,7 @@
     "name": "PUBG: BATTLEGROUNDS",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
     "image": "/pubg.jpg",
-    "price": "9.99$",
+    "price": "9.99",
     "rating": "4"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Spider-Man Remastered",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
     "image": "/spider-man.jpg",
-    "price": "4.99$",
+    "price": "4.99",
     "rating": "5"
   }
 ]
