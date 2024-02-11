@@ -1,7 +1,7 @@
-import { Header } from "../widgets/header";
-import { Product } from "../components/product";
-import { Filter } from "../components/filter";
-import productsData from "../data/products.json";
+import { Header } from "../../widgets/header/index";
+import { Product } from "../../components/product";
+import { Filter } from "../../components/filter";
+import productsData from "../../data/products.json";
 import "./PLP.scss";
 
 export const PLP = () => {

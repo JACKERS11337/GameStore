@@ -1,5 +1,6 @@
 import "./style.scss";
 import logo from "/logo.png";
+import { FaCartShopping } from "react-icons/fa6";
 import { Modal } from "../../components/modal";
 import { AuthModalBody } from "../../components/modal/authModalBody";
 import { useState } from "react";
@@ -22,9 +23,12 @@ export const Header = () => {
   return (
     <header>
       <div className="container">
-        <Link to="/">
-          <img src={logo} alt="logo" />
-        </Link>
+        <div>
+          <Link to="/">
+            <img src={logo} alt="logo" />
+            <span>GAME-STORE</span>
+          </Link>
+        </div>
         <nav>
           <ul>
             <li>
@@ -40,7 +44,9 @@ export const Header = () => {
               <Link to="/chat">CHAT</Link>
             </li>
             <li>
-              <Link to="/support">SUPPORT</Link>
+              <Link to="/cart">
+                <FaCartShopping />
+              </Link>
             </li>
           </ul>
         </nav>

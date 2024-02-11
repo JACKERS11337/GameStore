@@ -22,10 +22,22 @@ header {
     padding: 0 30px;
     min-height: 80px;
   }
+  div {
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
 
-  img {
-    height: 50px;
-    width: 50px;
+      img {
+        height: 50px;
+        width: 50px;
+      }
+
+      span {
+        color: rgb(0, 172, 225);
+        margin-left: 10px;
+      }
+    }
   }
 
   nav {
