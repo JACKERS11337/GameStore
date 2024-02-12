@@ -32,7 +32,10 @@ export const CartPage = () => {
           </div>
           {cartItems.length > 0 ? (
             <div className="price">
-              <span>Total: ${getCartTotal()}</span>
+              <div>
+                <span>Total: ${getCartTotal()}</span>
+                <button>Buy</button>
+              </div>
               <small
                 onClick={() => {
                   clearCart();
