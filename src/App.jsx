@@ -1,6 +1,6 @@
-import { PLP } from "./pages/plp/PLP";
+import { PLP } from "./pages/plp";
 import { Routes, Route } from "react-router-dom";
-import { CartPage } from "./pages/cart page";
+import { CartPage } from "./pages/cartPage";
 
 function App() {
   return (

@@ -1,0 +1,107 @@
+.cart-background {
+  padding-bottom: 30px;
+  background-color: #000;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+
+  .cart-container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    p {
+      font-size: 35px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      color: #fff;
+
+      div {
+        display: flex;
+        flex-direction: row;
+
+        background-color: #2a2a2a;
+        border: 2px solid rgb(0, 172, 225);
+
+        img {
+          width: 500px;
+          height: 300px;
+          object-fit: cover;
+        }
+
+        div {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          border: transparent;
+          padding: 20px;
+          margin: 0;
+
+          div {
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+          }
+
+          div {
+            position: relative;
+
+            button {
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              background-color: #2a2a2a;
+              color: #fff;
+              border: 1px solid transparent;
+              text-decoration: transparent;
+              cursor: pointer;
+              padding: 8px;
+              transition: all 0.3s ease;
+            }
+
+            button:hover {
+              background-color: #2a2a2a;
+              color: rgb(0, 172, 225);
+              border: 1px solid rgb(0, 172, 225);
+            }
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+    .price {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+
+      span {
+        font-size: 25px;
+      }
+
+      small {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid transparent;
+        text-decoration: transparent;
+        cursor: pointer;
+        padding: 8px;
+        transition: all 0.3s ease;
+      }
+      small:hover {
+        background-color: #000;
+        color: rgb(0, 172, 225);
+        border: 1px solid rgb(0, 172, 225);
+      }
+    }
+  }
+}

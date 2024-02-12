@@ -3,20 +3,20 @@ import logo from "/logo.png";
 import { FaCartShopping } from "react-icons/fa6";
 import { Modal } from "../../components/modal";
 import { AuthModalBody } from "../../components/modal/authModalBody";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { CartContext } from "../../context/cart";
 
 export const Header = () => {
+  const { cartItems, addToCart } = useContext(CartContext);
   const [openModal, setOpenModal] = useState(false);
 
   function onOpen() {
     document.body.style.overflow = "hidden";
-
     setOpenModal(true);
   }
   function onClose() {
     document.body.style.overflow = "unset";
-
     setOpenModal(false);
   }
 
@@ -43,9 +43,10 @@ export const Header = () => {
             <li>
               <Link to="/chat">CHAT</Link>
             </li>
-            <li>
+            <li style={{ color: "#fff" }}>
               <Link to="/cart">
                 <FaCartShopping />
+                <span>{cartItems.length}</span>
               </Link>
             </li>
           </ul>

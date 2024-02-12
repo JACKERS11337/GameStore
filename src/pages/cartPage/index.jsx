@@ -13,31 +13,36 @@ export const CartPage = () => {
       <Header />
       <div className="cart-background">
         <div className="cart-container">
-          <h1>Cart</h1>
+          <p>Cart</p>
           <div>
             {cartItems.map((item) => (
               <div key={item.id}>
                 <img src={item.image} alt={item.name} />
                 <div>
-                  <p>{item.name}</p>
-                  <p>{item.price}$</p>
+                  <div>
+                    <p>{item.name}</p>
+                    <p>{item.price}$</p>
+                  </div>
+                  <div>
+                    <button onClick={() => removeFromCart(item)}>Delete</button>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
           {cartItems.length > 0 ? (
-            <div>
-              <p>Total: ${getCartTotal()}</p>
-              <button
+            <div className="price">
+              <span>Total: ${getCartTotal()}</span>
+              <small
                 onClick={() => {
                   clearCart();
                 }}
               >
                 Clear cart
-              </button>
+              </small>
             </div>
           ) : (
-            <h1>Your cart is empty</h1>
+            <p>Your cart is empty</p>
           )}
         </div>
       </div>

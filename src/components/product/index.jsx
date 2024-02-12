@@ -2,10 +2,20 @@
 import "./style.scss";
 import { FaStar } from "react-icons/fa";
 import { CartContext } from "../../context/cart";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 export const Product = ({ ...product }) => {
   const { cartItems, addToCart } = useContext(CartContext);
+  const [loading, setLoading] = useState(false);
+
+  const handleAddCart = (product) => {
+    setLoading(true);
+    setTimeout(() => {
+      addToCart(product);
+      setLoading(false);
+    }, 1000);
+  };
+
   return (
     <div className="product-container">
       <div>
@@ -24,9 +34,16 @@ export const Product = ({ ...product }) => {
           </div>
           <p>{product.rating}/5 stars</p>
         </div>
-        <div className="description-product">{product.description}</div>
-        <button onClick={() => addToCart(product)}>
-          {product.price}$ <span>Add to cart</span>
+        <p className="description-product">{product.description}</p>
+        <button onClick={() => handleAddCart(product)}>
+          {product.price} $
+          {loading ? (
+            <span>
+              <img src="/loader.svg" alt="loading..." />
+            </span>
+          ) : (
+            <span>Add to cart</span>
+          )}
         </button>
       </div>
     </div>
