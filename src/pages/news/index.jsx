@@ -10,9 +10,7 @@ export const News = () => {
           return (
             <div key={news.id} className="news-content">
               <div>
-                <a href="">
-                  <img src={news.image} alt="" />
-                </a>
+                <img src={news.image} alt="" />
               </div>
               <div>
                 <span className="data">{news.data}</span>
