@@ -9,11 +9,12 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 99999;
-  background-color: #4eecfd;
+  z-index: 99;
+  background-color: #000000;
+  font-family: "Rubik", sans-serif;
 
   .container {
-    max-width: 1220px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -21,13 +22,27 @@ header {
     padding: 0 30px;
     min-height: 80px;
   }
+  div {
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
 
-  img {
-    height: 50px;
-    width: 50px;
+      img {
+        height: 50px;
+        width: 50px;
+      }
+
+      span {
+        color: rgb(0, 172, 225);
+        margin-left: 10px;
+      }
+    }
   }
 
   nav {
+    position: relative;
+
     ul {
       list-style: none;
 
@@ -37,14 +52,45 @@ header {
         a {
           text-decoration: none;
           font-size: 18px;
-          color: #000;
+          color: #fff;
           transition: 0.3s all ease;
         }
 
         a:hover {
-          color: #000;
+          color: rgb(0, 172, 225);
         }
       }
+
+      li:last-child {
+        position: absolute;
+        top: 3px;
+        left: 590px;
+
+        span {
+          color: #fff;
+          font-size: 14px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  div {
+    button {
+      font-family: "Rubik", sans-serif;
+      padding: 12px 25px;
+      border: 1px solid transparent;
+      color: #ffffff;
+      margin-left: 15px;
+      background-color: transparent;
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      color: rgb(0, 172, 225);
+      border: 1px solid rgb(0, 172, 225);
     }
   }
 }

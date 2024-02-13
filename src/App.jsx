@@ -1,16 +1,14 @@
-import { Header } from "./widgets/header";
-import { Product } from "./components/card";
-import { Filter } from "./components/filter";
-import cardsData from "../src/data/cards.json";
+import { PLP } from "./pages/plp";
+import { Routes, Route } from "react-router-dom";
+import { CartPage } from "./pages/cartPage";
 
 function App() {
   return (
     <>
-      <Header />
-      <div style={{ display: "flex" }}>
-        <Product product={cardsData[0]} />
-        <Filter />
-      </div>
+      <Routes>
+        <Route path="/" element={<PLP />} />
+        <Route path="/cart" element={<CartPage />} />
+      </Routes>
     </>
   );
 }
