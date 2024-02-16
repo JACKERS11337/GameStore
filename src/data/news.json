@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Black Friday Guide! Unlimited Epic Coupons for 33% Off and Up to 10% Boost in Epic Rewards!",
+    "description": "Black Friday 2023 on the Epic Games Store is here - you can use unlimited Epic coupons for 33% off and up to 10% more Epic Rewards!",
+    "image": "/black-friday.jpg",
+    "data": "26 DAYS BACK"
+  },
+  {
+    "id": 2,
+    "name": "Breach way combines sci-fi concepts with card strategy where decisions have consequences",
+    "description": "We spoke with Breach way lead designer Victor Rubinstein about his game's unexpected connection to Might & Sorcery VII and how difficult it is to achieve balance in card games.",
+    "image": "/breach.png",
+    "data": "29 DAYS BACK"
+  },
+  {
+    "id": 3,
+    "name": "Fifa 23: Guide to the best young talents and free transfers",
+    "description": "Build the future and lead the way for years to come with young talent and cooperative legends.",
+    "image": "/fifa guide.jpg",
+    "data": "3 MONTHS BACK"
+  },
+  {
+    "id": 4,
+    "name": "The wrong side of Bloons - a multimillion-dollar empire built on the defense of the fortress and monkeys",
+    "description": "Flash games rarely stand the test of time, but Bloons is still going strong",
+    "image": "/bloons.png",
+    "data": "6 DAYS BACK"
+  },
+  {
+    "id": 5,
+    "name": "ULTROS: nine tips before diving into a psychedelic time loop",
+    "description": "This mysterious metroidvania won't lead you by the hand through its strange world.",
+    "image": "/ultros-2.png",
+    "data": "1 DAYS BACK"
+  }
+]

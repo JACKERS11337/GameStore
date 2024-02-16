@@ -35,7 +35,7 @@ export const Header = () => {
               <Link to="/">SHOP</Link>
             </li>
             <li>
-              <Link to="/community">COMMUNITY</Link>
+              <Link to="/news">NEWS</Link>
             </li>
             <li>
               <Link to="/profile">PROFILE</Link>
