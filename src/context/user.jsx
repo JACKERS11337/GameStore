@@ -7,8 +7,8 @@ export const UserProvider = ({ children }) => {
   );
 
   const addUser = (item) => {
-    const isItemInUser = user.find((user) => user.email === user.email);
-    isItemInUser ? "" : setUsers([...user, { ...item }]);
+    const isItemInUser = user.find((user) => user.email === item.email);
+    isItemInUser ? null : setUsers([...user, { ...item }]);
     console.log(item);
     console.log(user);
   };
