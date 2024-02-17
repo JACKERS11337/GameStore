@@ -3,7 +3,7 @@ import { useRef } from "react";
 import useOnClickOutside from "../../hooks/useOnClickOutside";
 import "./style.scss";
 
-export const Modal = ({ children, openModal, onClose }) => {
+export const Modal = ({ children, onClose }) => {
   const modalRef = useRef();
 
   useOnClickOutside(modalRef, function () {

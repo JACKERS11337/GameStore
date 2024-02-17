@@ -11,10 +11,8 @@ export const CartProvider = ({ children }) => {
   const addToCart = (item) => {
     const isItemInCart = cartItems.find((cartItem) => cartItem.id === item.id);
 
-    isItemInCart ? "" : setCartItems([...cartItems, { ...item, quantity: 1 }]);
-
+    isItemInCart ? "" : setCartItems([...cartItems, { ...item }]);
     console.log(item);
-    console.log(cartItems);
   };
 
   const removeFromCart = (item) => {
