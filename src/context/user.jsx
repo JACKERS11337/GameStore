@@ -2,33 +2,32 @@ import { createContext, useState, useEffect } from "react";
 
 export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
-  const [users, setUsers] = useState(
-    localStorage.getItem("users")
-      ? JSON.parse(localStorage.getItem("users"))
-      : []
+  const [user, setUser] = useState(
+    localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : {}
   );
 
   const newUser = (item) => {
-    const isItemInUser = users.find((user) => user.email === item.email);
-    console.log(isItemInUser);
-    isItemInUser ? "" : setUsers([...users, { ...item }]);
+    item.email === "admin" && item.password === "admin"
+      ? setUser({ ...item })
+      : alert("admin, admin");
+  };
+
+  const exitUser = () => {
+    localStorage.clear();
+    setUser({});
+    location.reload();
   };
 
   useEffect(() => {
-    localStorage.setItem("users", JSON.stringify(users));
-  }, [users]);
-
-  useEffect(() => {
-    const users = localStorage.getItem("users");
-    if (users) {
-      setUsers(JSON.parse(users));
-    }
-  }, []);
+    localStorage.setItem("user", JSON.stringify(user));
+  }, [user]);
 
   return (
     <UserContext.Provider
       value={{
+        user,
         newUser,
+        exitUser,
       }}
     >
       {children}

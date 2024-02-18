@@ -15,7 +15,6 @@ export const AuthModalBody = ({ onClose }) => {
   const userData = {
     email: email,
     password: password,
-    retypePass: retypePass,
   };
 
   return (
