@@ -10,11 +10,12 @@ export const AuthModalBody = ({ onClose }) => {
 
   const [tab, setTab] = useState("sing-in");
 
-  const { addUser } = useContext(UserContext);
+  const { newUser } = useContext(UserContext);
 
   const userData = {
-    email: { email },
-    password: { password },
+    email: email,
+    password: password,
+    retypePass: retypePass,
   };
 
   return (
@@ -67,7 +68,7 @@ export const AuthModalBody = ({ onClose }) => {
           </div>
         )}
 
-        <button type="submit" onClick={() => addUser(userData)}>
+        <button type="submit" onClick={() => newUser(userData)}>
           {tab === "sing-in" && <span>LOGIN</span>}
 
           {tab === "sing-up" && <span>CREATE</span>}

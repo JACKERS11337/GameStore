@@ -2,32 +2,33 @@ import { createContext, useState, useEffect } from "react";
 
 export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
-  const [user, setUsers] = useState(
-    localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : []
+  const [users, setUsers] = useState(
+    localStorage.getItem("users")
+      ? JSON.parse(localStorage.getItem("users"))
+      : []
   );
 
-  const addUser = (item) => {
-    const isItemInUser = user.find((user) => user.email === item.email);
-    isItemInUser ? null : setUsers([...user, { ...item }]);
-    console.log(item);
-    console.log(user);
+  const newUser = (item) => {
+    const isItemInUser = users.find((user) => user.email === item.email);
+    console.log(isItemInUser);
+    isItemInUser ? "" : setUsers([...users, { ...item }]);
   };
 
   useEffect(() => {
-    localStorage.setItem("user", JSON.stringify(user));
-  }, [user]);
+    localStorage.setItem("users", JSON.stringify(users));
+  }, [users]);
 
   useEffect(() => {
-    const user = localStorage.getItem("user");
-    if (user) {
-      setUsers(JSON.parse(user));
+    const users = localStorage.getItem("users");
+    if (users) {
+      setUsers(JSON.parse(users));
     }
   }, []);
 
   return (
     <UserContext.Provider
       value={{
-        addUser,
+        newUser,
       }}
     >
       {children}
