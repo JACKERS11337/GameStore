@@ -11,7 +11,7 @@ import { UserContext } from "../../context/user";
 export const Header = () => {
   const { user, exitUser } = useContext(UserContext);
 
-  const { cartItems, addToCart } = useContext(CartContext);
+  const { cartItems } = useContext(CartContext);
   const [openModal, setOpenModal] = useState(false);
 
   function onOpen() {
@@ -40,7 +40,7 @@ export const Header = () => {
             <li>
               <Link to="/news">NEWS</Link>
             </li>
-            {user.email && (
+            {user.avatar && (
               <li>
                 <Link to="/profile">PROFILE</Link>
               </li>
@@ -57,16 +57,16 @@ export const Header = () => {
           </ul>
         </nav>
 
-        {!user.email && (
+        {!user.avatar && (
           <div>
             <button onClick={onOpen}>Sing-in</button>
             <button onClick={onOpen}>Sing-up</button>
           </div>
         )}
 
-        {user.email && (
+        {user.avatar && (
           <div>
-            <button onClick={exitUser}>Exit</button>
+            <button onClick={() => exitUser()}>Exit</button>
           </div>
         )}
 

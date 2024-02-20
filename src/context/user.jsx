@@ -5,21 +5,30 @@ export const UserProvider = ({ children }) => {
   const [user, setUser] = useState(
     localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : {}
   );
+  console.log(user);
 
   const newUser = (item) => {
-    item.email === "admin" && item.password === "admin"
-      ? setUser({ ...item })
-      : alert("admin, admin");
+    setUser({ ...item });
+    if (item.email === "admin" && item.password === "admin") {
+      setUser({
+        avatar:
+          "https://pagesix.com/wp-content/uploads/sites/3/2014/12/spl720225_001.jpg?resize=811",
+        username: "JACKERS11337",
+        name: "Kirill",
+        age: "23",
+        country: "Belarus",
+      });
+    }
   };
 
   const exitUser = () => {
-    localStorage.clear();
     setUser({});
-    location.reload();
+    localStorage.clear();
+    window.location.assign("/");
   };
 
   useEffect(() => {
-    localStorage.setItem("user", JSON.stringify(user));
+    user ? localStorage.setItem("user", JSON.stringify(user)) : "";
   }, [user]);
 
   return (

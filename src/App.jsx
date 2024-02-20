@@ -4,7 +4,6 @@ import { CartPage } from "./pages/cartPage";
 import { Header } from "./widgets/header";
 import { News } from "./pages/news";
 import { Profile } from "./pages/profile";
-import userData from "./data/user.json";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
         <Route path="/" element={<PLP />} />
         <Route path="/news" element={<News />} />
         <Route path="/cart" element={<CartPage />} />
-        <Route path="/profile" element={<Profile {...userData[0]} />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );

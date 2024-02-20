@@ -46,7 +46,7 @@ export const AuthModalBody = ({ onClose }) => {
         <div>
           <label htmlFor="pass">Password</label>
           <input
-            type="text"
+            type="password"
             id="pass"
             placeholder="Password"
             value={password}

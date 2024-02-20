@@ -1,4 +1,4 @@
-.plp-content {
+.plp {
   background-color: #000;
 
   .plp-container {
@@ -9,6 +9,10 @@
     padding: 20px 0;
     font-family: "Rubik", sans-serif;
 
+    .plp-content {
+      display: flex;
+      flex-direction: column;
+    }
     .plp-product {
       display: flex;
       flex-wrap: wrap;
