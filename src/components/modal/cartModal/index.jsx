@@ -1,10 +1,9 @@
-import React from "react";
+import { createPortal } from "react-dom";
 import { useRef } from "react";
 import useOnClickOutside from "../../../hooks/useOnClickOutside";
 import "./style.scss";
-import { createPortal } from "react-dom";
 
-export const ModalChanges = ({ children, onClose }) => {
+export const ModalCart = ({ children, onClose }) => {
   const modalRef = useRef();
 
   useOnClickOutside(modalRef, function () {
@@ -12,11 +11,11 @@ export const ModalChanges = ({ children, onClose }) => {
   });
 
   return createPortal(
-    <div className="change-modal">
-      <div className="change-content-wrapper" ref={modalRef}>
+    <div className="cart-modal">
+      <div className="cart-modal-content-wrapper" ref={modalRef}>
         {children}
       </div>
     </div>,
-    document.getElementById("changes-modal")
+    document.getElementById("cart-modal")
   );
 };

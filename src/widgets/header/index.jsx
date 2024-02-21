@@ -76,7 +76,7 @@ export const Header = () => {
       </div>
 
       {openModal && (
-        <Modal openModal={openModal} onClose={onClose}>
+        <Modal onClose={onClose}>
           <AuthModalBody onClose={onClose} />
         </Modal>
       )}

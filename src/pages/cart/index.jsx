@@ -1,11 +1,24 @@
 import React from "react";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { CartContext } from "../../context/cart";
 import "./style.scss";
+import { ModalCart } from "../../components/modal/cartModal";
+import { CartModalBody } from "../../components/modal/cartModal/cartModalBody";
 
-export const CartPage = () => {
-  const { cartItems, addToCart, removeFromCart, clearCart, getCartTotal } =
+export const Cart = () => {
+  const { cartItems, removeFromCart, clearCart, getCartTotal } =
     useContext(CartContext);
+
+  const [openModal, setOpenModal] = useState(false);
+
+  function onOpen() {
+    document.body.style.overflow = "hidden";
+    setOpenModal(true);
+  }
+  function onClose() {
+    document.body.style.overflow = "unset";
+    setOpenModal(false);
+  }
 
   return (
     <div className="cart-background">
@@ -31,7 +44,7 @@ export const CartPage = () => {
           <div className="price">
             <div>
               <span>Total: ${getCartTotal()}</span>
-              <button>Buy</button>
+              <button onClick={onOpen}>Buy</button>
             </div>
             <small
               onClick={() => {
@@ -45,6 +58,18 @@ export const CartPage = () => {
           <p>Your cart is empty</p>
         )}
       </div>
+
+      {openModal && (
+        <ModalCart onClose={onClose}>
+          <CartModalBody
+            cartItems={cartItems}
+            getCartTotal={getCartTotal}
+            onClose={onClose}
+            clearCart={clearCart}
+            setOpenModal={setOpenModal}
+          />
+        </ModalCart>
+      )}
     </div>
   );
 };

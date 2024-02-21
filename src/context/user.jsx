@@ -12,7 +12,7 @@ export const UserProvider = ({ children }) => {
     if (item.email === "admin" && item.password === "admin") {
       setUser({
         avatar:
-          "https://pagesix.com/wp-content/uploads/sites/3/2014/12/spl720225_001.jpg?resize=811",
+          "https://fuzz-music.com/wp-content/uploads/2020/02/tyler-the-creator-tayler-ze-krieytor.jpg",
         username: "JACKERS11337",
         name: "Kirill",
         age: "23",
