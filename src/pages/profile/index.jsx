@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./style.scss";
 import { UserContext } from "../../context/user";
-import { DiAptana } from "react-icons/di";
 import { ModalChanges } from "../../components/modalChanges";
 import { ChangModalBody } from "../../components/modalChanges/chanModalBody";
 

@@ -28,6 +28,7 @@
           margin-bottom: 20px;
           width: 300px;
           height: 300px;
+          object-fit: cover;
           border-radius: 50%;
           border: 2px solid #fff;
           animation: border-circle 10s infinite alternate;
@@ -78,6 +79,7 @@
           font-size: 25px;
           margin-bottom: 10px;
         }
+
         li {
           font-size: 20px;
           margin-bottom: 5px;

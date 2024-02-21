@@ -41,25 +41,25 @@
   },
   {
     "id": 6,
-    "name": "Spider-Man Remastered",
+    "name": "Mortal Kombat 11",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
-    "image": "/spider-man.jpg",
+    "image": "https://www.digiseller.ru/preview/1138919/p1_3840065_3151f6c9.jpg",
     "price": "4.99",
     "rating": "5"
   },
   {
     "id": 7,
-    "name": "Fifa 23",
+    "name": "NFS MW",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
-    "image": "/fifa.jpeg",
+    "image": "https://i.pinimg.com/originals/d7/8b/3f/d78b3f1712468c3f884dd93b76ea232a.jpg",
     "price": "9.99",
     "rating": "4"
   },
   {
     "id": 8,
-    "name": "Grand Theft Auto V",
+    "name": "Forza HORIZON 5",
     "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
-    "image": "/gta-v.jpeg",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
     "price": "9.99",
     "rating": "5"
   },
@@ -73,19 +73,19 @@
   },
   {
     "id": 10,
-    "name": "UFC 3",
+    "name": "Left 4 dead 2",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
-    "image": "/ufc-3.jpg",
+    "image": "https://androidbaza.ru/wp-content/uploads/2020/11/l4d200.jpg",
     "price": "4.99",
     "rating": "3"
   },
   {
     "id": 11,
-    "name": "PUBG: BATTLEGROUNDS",
-    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
-    "image": "/pubg.jpg",
+    "name": "Forza HORIZON 5",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
     "price": "9.99",
-    "rating": "4"
+    "rating": "5"
   },
   {
     "id": 12,
@@ -97,11 +97,11 @@
   },
   {
     "id": 13,
-    "name": "Fifa 23",
-    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
-    "image": "/fifa.jpeg",
-    "price": "9.99",
-    "rating": "4"
+    "name": "Mortal Kombat 11",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "https://www.digiseller.ru/preview/1138919/p1_3840065_3151f6c9.jpg",
+    "price": "4.99",
+    "rating": "5"
   },
   {
     "id": 14,
@@ -201,9 +201,9 @@
   },
   {
     "id": 26,
-    "name": "Grand Theft Auto V",
+    "name": "Grand Theft Auto SA",
     "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
-    "image": "/gta-v.jpeg",
+    "image": "https://games-all.net/uploads/posts/2015-02/1425146101_1.jpg",
     "price": "9.99",
     "rating": "5"
   },
@@ -285,6 +285,518 @@
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
     "image": "/spider-man.jpg",
     "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 37,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 38,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 39,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 40,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 41,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 42,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 43,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 44,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 45,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 46,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 47,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 48,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 49,
+    "name": "Grand Theft Auto SA",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "https://games-all.net/uploads/posts/2015-02/1425146101_1.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 50,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 51,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 52,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 53,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 54,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 55,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 56,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 57,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 58,
+    "name": "NFS MW",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "https://i.pinimg.com/originals/d7/8b/3f/d78b3f1712468c3f884dd93b76ea232a.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 59,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 60,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 61,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 62,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 63,
+    "name": "Left 4 dead 2",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "https://androidbaza.ru/wp-content/uploads/2020/11/l4d200.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 64,
+    "name": "Forza HORIZON 5",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 65,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 66,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 67,
+    "name": "Mortal Kombat 11",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "https://www.digiseller.ru/preview/1138919/p1_3840065_3151f6c9.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 68,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 69,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 70,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 71,
+    "name": "NFS MW",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "https://i.pinimg.com/originals/d7/8b/3f/d78b3f1712468c3f884dd93b76ea232a.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 72,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 73,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 74,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 75,
+    "name": "Forza HORIZON 5",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 76,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 77,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 78,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 79,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 80,
+    "name": "Left 4 dead 2",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "https://androidbaza.ru/wp-content/uploads/2020/11/l4d200.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 81,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 82,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 83,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 84,
+    "name": "Fallout 4",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "/fallout-4.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 85,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 86,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 87,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 88,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 89,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 90,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 91,
+    "name": "Forza HORIZON 5",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 92,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 93,
+    "name": "NFS MW",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "https://i.pinimg.com/originals/d7/8b/3f/d78b3f1712468c3f884dd93b76ea232a.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 94,
+    "name": "Mortal Kombat 11",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "https://www.digiseller.ru/preview/1138919/p1_3840065_3151f6c9.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 95,
+    "name": "UFC 3",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "/ufc-3.jpg",
+    "price": "4.99",
+    "rating": "3"
+  },
+  {
+    "id": 96,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/pubg.jpg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 97,
+    "name": "Spider-Man Remastered",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.A sports simulator in which you will immerse yourself in the fascinating world of big football.",
+    "image": "/spider-man.jpg",
+    "price": "4.99",
+    "rating": "5"
+  },
+  {
+    "id": 98,
+    "name": "Fifa 23",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "/fifa.jpeg",
+    "price": "9.99",
+    "rating": "4"
+  },
+  {
+    "id": 99,
+    "name": "Grand Theft Auto V",
+    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
+    "image": "/gta-v.jpeg",
+    "price": "9.99",
+    "rating": "5"
+  },
+  {
+    "id": 100,
+    "name": "NFS MW",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general.",
+    "image": "https://i.pinimg.com/originals/d7/8b/3f/d78b3f1712468c3f884dd93b76ea232a.jpg",
+    "price": "9.99",
     "rating": "5"
   }
 ]
