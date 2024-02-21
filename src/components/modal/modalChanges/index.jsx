@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import useOnClickOutside from "../../hooks/useOnClickOutside";
+import useOnClickOutside from "../../../hooks/useOnClickOutside";
 import "./style.scss";
 
 export const ModalChanges = ({ children, onClose }) => {

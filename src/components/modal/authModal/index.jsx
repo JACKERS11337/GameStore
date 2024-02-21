@@ -1,6 +1,6 @@
 import { createPortal } from "react-dom";
 import { useRef } from "react";
-import useOnClickOutside from "../../hooks/useOnClickOutside";
+import useOnClickOutside from "../../../hooks/useOnClickOutside";
 import "./style.scss";
 
 export const Modal = ({ children, onClose }) => {

@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import "./style.scss";
 import { IoMdClose } from "react-icons/io";
-import { UserContext } from "../../../context/user";
+import { UserContext } from "../../../../context/user";
 
 export const AuthModalBody = ({ onClose }) => {
   const [email, setEmail] = useState("");

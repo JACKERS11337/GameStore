@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import "./style.scss";
 import { UserContext } from "../../context/user";
-import { ModalChanges } from "../../components/modalChanges";
-import { ChangModalBody } from "../../components/modalChanges/chanModalBody";
+import { ModalChanges } from "../../components/modal/modalChanges";
+import { ChangModalBody } from "../../components/modal/modalChanges/changeModalBody";
 
 export const Profile = () => {
   const { user } = useContext(UserContext);

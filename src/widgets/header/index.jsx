@@ -1,8 +1,8 @@
 import "./style.scss";
 import logo from "/logo.png";
 import { FaCartShopping } from "react-icons/fa6";
-import { Modal } from "../../components/modal";
-import { AuthModalBody } from "../../components/modal/authModalBody";
+import { Modal } from "../../components/modal/authModal";
+import { AuthModalBody } from "../../components/modal/authModal/authModalBody";
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/cart";
