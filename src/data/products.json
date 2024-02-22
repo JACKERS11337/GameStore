@@ -81,11 +81,11 @@
   },
   {
     "id": 11,
-    "name": "Forza HORIZON 5",
-    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
-    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
-    "price": "9.99",
-    "rating": "5"
+    "name": "S.T.A.L.K.E.R Shadow of Chernobyl",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "https://abrakadabra.fun/uploads/posts/2022-01/1641334391_1-abrakadabra-fun-p-stalker-ten-chernobilya-oblozhka-4.jpg",
+    "price": "4.99",
+    "rating": "3"
   },
   {
     "id": 12,
@@ -121,9 +121,9 @@
   },
   {
     "id": 16,
-    "name": "UFC 3",
+    "name": "S.T.A.L.K.E.R Shadow of Chernobyl",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
-    "image": "/ufc-3.jpg",
+    "image": "https://abrakadabra.fun/uploads/posts/2022-01/1641334391_1-abrakadabra-fun-p-stalker-ten-chernobilya-oblozhka-4.jpg",
     "price": "4.99",
     "rating": "3"
   },
@@ -145,9 +145,9 @@
   },
   {
     "id": 19,
-    "name": "Fifa 23",
+    "name": "S.T.A.L.K.E.R Call of Pripyat",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
-    "image": "/fifa.jpeg",
+    "image": "https://www.digiseller.ru/preview/295579/p1_3550214_2814fd55.jpg",
     "price": "9.99",
     "rating": "4"
   },
@@ -361,9 +361,9 @@
   },
   {
     "id": 46,
-    "name": "UFC 3",
+    "name": "S.T.A.L.K.E.R Shadow of Chernobyl",
     "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
-    "image": "/ufc-3.jpg",
+    "image": "https://abrakadabra.fun/uploads/posts/2022-01/1641334391_1-abrakadabra-fun-p-stalker-ten-chernobilya-oblozhka-4.jpg",
     "price": "4.99",
     "rating": "3"
   },
@@ -537,11 +537,11 @@
   },
   {
     "id": 68,
-    "name": "Grand Theft Auto V",
-    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
-    "image": "/gta-v.jpeg",
-    "price": "9.99",
-    "rating": "5"
+    "name": "S.T.A.L.K.E.R Shadow of Chernobyl",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
+    "image": "https://abrakadabra.fun/uploads/posts/2022-01/1641334391_1-abrakadabra-fun-p-stalker-ten-chernobilya-oblozhka-4.jpg",
+    "price": "4.99",
+    "rating": "3"
   },
   {
     "id": 69,
@@ -577,11 +577,11 @@
   },
   {
     "id": 73,
-    "name": "UFC 3",
-    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2.",
-    "image": "/ufc-3.jpg",
-    "price": "4.99",
-    "rating": "3"
+    "name": "S.T.A.L.K.E.R Call of Pripyat",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "https://www.digiseller.ru/preview/295579/p1_3550214_2814fd55.jpg",
+    "price": "9.99",
+    "rating": "4"
   },
   {
     "id": 74,
@@ -785,11 +785,11 @@
   },
   {
     "id": 99,
-    "name": "Grand Theft Auto V",
-    "description": "An open-world action-adventure computer game developed by Rockstar North and published by Rockstar Games. The game takes place in the fictional state of San Andreas, based on Southern California. The single-player storyline revolves around the adventures of three robbers who stage increasingly daring heists and confront both organized crime and law enforcement agencies. During the game, the player controls the selected character in first or third person mode; The character can move freely throughout the vast world of the game, both on foot and in cars and other modes of transport. What sets Grand Theft Auto V apart from other games in the series is the ability to switch between characters at any time, both during and outside of missions. Many of the game's missions involve robberies and car thefts; at the same time, the game character can participate in shootouts and chases. Grand Theft Auto Online features built-in online multiplayer that supports up to 30 simultaneous players, offering both co-op and competitive missions.",
-    "image": "/gta-v.jpeg",
+    "name": "S.T.A.L.K.E.R Call of Pripyat",
+    "description": "A sports simulator in which you will immerse yourself in the fascinating world of big football. The developers have done a great job on artificial intelligence, which is now able to calculate your tactics and has stronger indicators of speed, agility and experience. The latest part uses a completely new technology called HyperMotion-2, which adds even more realism to player movements and animation in general. The number of recorded body movements has doubled, which means the quality of movement transmission has increased.",
+    "image": "https://www.digiseller.ru/preview/295579/p1_3550214_2814fd55.jpg",
     "price": "9.99",
-    "rating": "5"
+    "rating": "4"
   },
   {
     "id": 100,

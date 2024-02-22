@@ -52,8 +52,10 @@ export const CartModalBody = ({
               value={cardNumber}
               onChange={(e) => setCardNumber(e.target.value)}
               id="card-number"
-              type="text"
-              placeholder="Card number"
+              type="tel"
+              inputmode="numeric"
+              maxlength="19"
+              placeholder="xxxx xxxx xxxx xxxx"
             />
           </div>
           <div>
@@ -63,8 +65,8 @@ export const CartModalBody = ({
                 value={cardValidity}
                 onChange={(e) => setCardValidity(e.target.value)}
                 id="validity"
-                type="text"
-                placeholder="Validity"
+                type="tel"
+                placeholder="mm/yy"
               />
             </div>
             <div>
@@ -73,7 +75,7 @@ export const CartModalBody = ({
                 value={cardCvv}
                 onChange={(e) => setCardCvv(e.target.value)}
                 id="cvv"
-                type="text"
+                type="tel"
                 placeholder="CVV"
               />
             </div>

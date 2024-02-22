@@ -45,9 +45,11 @@ export const Header = () => {
                 <Link to="/profile">PROFILE</Link>
               </li>
             )}
-            <li>
-              <Link to="/chat">CHAT</Link>
-            </li>
+            {user.avatar && (
+              <li>
+                <Link to="/chat">CHAT</Link>
+              </li>
+            )}
             <li style={{ color: "#fff" }}>
               <Link to="/cart">
                 <FaCartShopping />

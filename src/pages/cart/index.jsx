@@ -66,7 +66,6 @@ export const Cart = () => {
             getCartTotal={getCartTotal}
             onClose={onClose}
             clearCart={clearCart}
-            setOpenModal={setOpenModal}
           />
         </ModalCart>
       )}

@@ -1,10 +1,12 @@
 import React from "react";
 import "./style.scss";
 import newsData from "../../data/news.json";
+import { Slider } from "../../components/slider";
 
 export const News = () => {
   return (
     <div className="news">
+      <Slider />
       <div className="news-container">
         {newsData.map((news) => {
           return (
