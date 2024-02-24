@@ -11,6 +11,8 @@ export const PLP = () => {
   const firstIndex = lastIndex - recordsProdPage;
   const quantityProducts = productsData.slice(firstIndex, lastIndex);
   const quantityPage = Math.ceil(productsData.length / recordsProdPage);
+  const numberPage = [...Array(quantityPage + 1).keys()].slice(1);
+  console.log(numberPage);
 
   function prePage() {
     currentPage !== 1 ? setCurrentPage(currentPage - 1) : "";
@@ -18,6 +20,9 @@ export const PLP = () => {
 
   function nextPage() {
     currentPage !== quantityPage ? setCurrentPage(currentPage + 1) : "";
+  }
+  function changePage(id) {
+    setCurrentPage(id);
   }
 
   return (
@@ -32,14 +37,23 @@ export const PLP = () => {
           </div>
           <nav>
             <ul className="pagination">
-              <li className="page-item">
-                <button onClick={prePage}>Prev</button>
+              <li className="page-change">
+                <button onClick={prePage}>{"<"}</button>
               </li>
-
-              <p style={{ color: "#fff" }}>{currentPage}</p>
-
-              <li className="page-item">
-                <button onClick={nextPage}>Next</button>
+              {numberPage.map((n, i) => (
+                <li key={i} className="number-page ">
+                  <button
+                    className={`button-item ${
+                      currentPage === n ? "active" : ""
+                    }`}
+                    onClick={() => changePage(n)}
+                  >
+                    {n}
+                  </button>
+                </li>
+              ))}
+              <li className="page-change">
+                <button onClick={nextPage}>{">"}</button>
               </li>
             </ul>
           </nav>
