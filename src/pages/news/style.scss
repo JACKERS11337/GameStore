@@ -21,6 +21,7 @@
 
     img {
       width: 250px;
+      height: 157px;
       border-radius: 10px;
       object-fit: cover;
     }
@@ -45,12 +46,16 @@
       margin-bottom: 10px;
     }
 
-    a {
-      text-decoration: transparent;
+    button {
+      font-family: "Rubik", sans-serif;
+      align-self: flex-start;
+      border: transparent;
+      background-color: transparent;
       color: #6e6e6e;
+      cursor: pointer;
       transition: all 0.3s ease;
     }
-    a:hover {
+    button:hover {
       text-decoration: underline;
       color: #fff;
     }
