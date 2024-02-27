@@ -1,4 +1,4 @@
-.plp-content {
+.plp {
   background-color: #000;
 
   .plp-container {
@@ -9,10 +9,55 @@
     padding: 20px 0;
     font-family: "Rubik", sans-serif;
 
+    .plp-content {
+      display: flex;
+      flex-direction: column;
+    }
     .plp-product {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
+    }
+    nav {
+      border: 2px solid rgb(0, 172, 225);
+      border-radius: 10px;
+      margin-top: 20px;
+
+      .pagination {
+        .page-change {
+          button {
+            padding: 3px 25px;
+            font-family: "Rubik", sans-serif;
+            border: 1px solid transparent;
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            font-size: 17px;
+          }
+        }
+
+        .number-page {
+          display: flex;
+          align-items: center;
+          .button-item {
+            font-family: "Rubik", sans-serif;
+            padding: 3px 10px;
+            border: 1px solid transparent;
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+          }
+
+          .button-item:hover {
+            border: 1px solid rgb(0, 172, 225);
+          }
+
+          .active {
+            background-color: rgb(0, 172, 225);
+          }
+        }
+      }
     }
   }
 }

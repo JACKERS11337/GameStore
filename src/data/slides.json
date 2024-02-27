@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "description": " An open world, action-adventure game in which the player controls three characters: Michael, Franklin and Trevor. They work togetherto complete various missions and assignments related to the Los Santos criminal underworld.",
+    "name": "PUBG: BATTLEGROUNDS",
+    "image": "/pubg.jpg",
+    "price": "9.99"
+  },
+  {
+    "id": 2,
+    "description": " An open world, action-adventure game in which the player controls three characters: Michael, Franklin and Trevor. They work togetherto complete various missions and assignments related to the Los Santos criminal underworld.",
+    "name": "Left 4 dead 2",
+    "image": "https://androidbaza.ru/wp-content/uploads/2020/11/l4d200.jpg",
+    "price": "9.99"
+  },
+  {
+    "id": 3,
+    "description": " An open world, action-adventure game in which the player controls three characters: Michael, Franklin and Trevor. They work togetherto complete various missions and assignments related to the Los Santos criminal underworld.",
+    "name": "Forza Horizon 5",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-n/6410683091.jpg",
+    "price": "9.99"
+  },
+  {
+    "id": 4,
+    "description": " An open world, action-adventure game in which the player controls three characters: Michael, Franklin and Trevor. They work togetherto complete various missions and assignments related to the Los Santos criminal underworld.",
+    "name": "S.T.A.L.K.E.R Shadow of Chernobyl",
+    "image": "https://abrakadabra.fun/uploads/posts/2022-01/1641334391_1-abrakadabra-fun-p-stalker-ten-chernobilya-oblozhka-4.jpg",
+    "price": "9.99"
+  },
+  {
+    "id": 5,
+    "description": " An open world, action-adventure game in which the player controls three characters: Michael, Franklin and Trevor. They work togetherto complete various missions and assignments related to the Los Santos criminal underworld.",
+    "name": "Spider-Man Remastered",
+    "image": "/spider-man.jpg",
+    "price": "9.99"
+  }
+]

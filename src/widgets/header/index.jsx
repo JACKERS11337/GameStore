@@ -1,14 +1,17 @@
 import "./style.scss";
 import logo from "/logo.png";
 import { FaCartShopping } from "react-icons/fa6";
-import { Modal } from "../../components/modal";
-import { AuthModalBody } from "../../components/modal/authModalBody";
+import { Modal } from "../../components/modal/authModal";
+import { AuthModalBody } from "../../components/modal/authModal/authModalBody";
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/cart";
+import { UserContext } from "../../context/user";
 
 export const Header = () => {
-  const { cartItems, addToCart } = useContext(CartContext);
+  const { user, exitUser } = useContext(UserContext);
+
+  const { cartItems } = useContext(CartContext);
   const [openModal, setOpenModal] = useState(false);
 
   function onOpen() {
@@ -37,12 +40,16 @@ export const Header = () => {
             <li>
               <Link to="/news">NEWS</Link>
             </li>
-            <li>
-              <Link to="/profile">PROFILE</Link>
-            </li>
-            <li>
-              <Link to="/chat">CHAT</Link>
-            </li>
+            {user.avatar && (
+              <li>
+                <Link to="/profile">PROFILE</Link>
+              </li>
+            )}
+            {user.avatar && (
+              <li>
+                <Link to="/chat">CHAT</Link>
+              </li>
+            )}
             <li style={{ color: "#fff" }}>
               <Link to="/cart">
                 <FaCartShopping />
@@ -51,17 +58,27 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
-        <div>
-          <button onClick={onOpen}>Sing-in</button>
-          <button onClick={onOpen}>Sing-up</button>
-        </div>
+
+        {!user.avatar && (
+          <div>
+            <button onClick={onOpen}>Sing-in</button>
+            <button onClick={onOpen}>Sing-up</button>
+          </div>
+        )}
+
+        {user.avatar && (
+          <div>
+            <button onClick={() => exitUser()}>Exit</button>
+          </div>
+        )}
+
         <div className="mobile-hamb">
           <span></span>
         </div>
       </div>
 
       {openModal && (
-        <Modal openModal={openModal} onClose={onClose}>
+        <Modal onClose={onClose}>
           <AuthModalBody onClose={onClose} />
         </Modal>
       )}

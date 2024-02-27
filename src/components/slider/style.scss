@@ -1,0 +1,50 @@
+.swiper {
+  max-width: 1400px;
+  height: 600px;
+  border-radius: 20px;
+  font-family: "Rubik", sans-serif;
+  top: 20px;
+  margin-bottom: 35px;
+
+  .swiper-wrapper {
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+      }
+      .slider-description {
+        bottom: 20px;
+        left: 20px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        max-width: 320px;
+        gap: 15px;
+
+        h4 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 16px;
+        }
+        p:last-child {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .swiper-pagination {
+    .swiper-pagination-bullet {
+      background-color: #b1b1b1;
+      border-radius: 0;
+      width: 30px;
+    }
+  }
+}
