@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import "./style.scss";
 import { FiMessageCircle } from "react-icons/fi";
 
@@ -16,9 +16,13 @@ export const Chat = () => {
   }
 
   function removeMessage(mes) {
-    setMessages(messages.filter((message) => message !== mes));
-    localStorage.clear();
+    const isMessage = messages.find((message) => message === mes);
+    isMessage ? setMessages(messages.filter((message) => message !== mes)) : "";
   }
+
+  useEffect(() => {
+    localStorage.setItem("messages", JSON.stringify(messages));
+  }, [messages]);
 
   const submitMessage = useCallback(() => {
     if (message) {
