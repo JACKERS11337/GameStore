@@ -1,0 +1,49 @@
+.chat-page {
+  background-color: #000;
+  height: 100vh;
+
+  .chat-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: "Rubik", sans-serif;
+
+    .chat-content {
+      color: #fff;
+
+      .chat-text {
+        color: #000;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+
+        p {
+          font-size: 20px;
+        }
+      }
+      .chat-placeholder {
+        display: flex;
+        align-items: center;
+        height: 3em;
+
+        input {
+          width: 100%;
+          height: 100%;
+          font-size: 20px;
+        }
+
+        button {
+          border: 2px solid transparent;
+          background-color: rgb(0, 172, 225);
+          padding: 1em;
+          cursor: pointer;
+          transition: all 0.3s;
+
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { Cart } from "./pages/cart";
 import { Header } from "./widgets/header";
 import { News } from "./pages/news";
 import { Profile } from "./pages/profile";
+import { Chat } from "./pages/chat";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
     </>
   );
