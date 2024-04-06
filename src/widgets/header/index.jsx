@@ -10,48 +10,66 @@ import { UserContext } from "../../context/user";
 
 export const Header = () => {
   const { user, exitUser } = useContext(UserContext);
-
   const { cartItems } = useContext(CartContext);
+
   const [openModal, setOpenModal] = useState(false);
+  const [burger, setBurger] = useState(true);
 
   function onOpen() {
     document.body.style.overflow = "hidden";
     setOpenModal(true);
   }
+
   function onClose() {
     document.body.style.overflow = "unset";
     setOpenModal(false);
   }
 
+  function closeBurger(burger) {
+    burger === false
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "unset");
+    setBurger(burger);
+  }
+
   return (
     <header>
       <div className="container">
-        <div>
-          <Link to="/">
+        <div className="header-logo">
+          <Link onClick={() => setBurger(true)} to="/">
             <img src={logo} alt="logo" />
-            <span>GAME-STORE</span>
+            <span className="logo">GAME-STORE</span>
           </Link>
         </div>
-        <nav>
+
+        <nav className={burger ? "active" : ""}>
           <ul>
             <li>
-              <Link to="/">SHOP</Link>
+              <Link onClick={() => setBurger(true)} to="/">
+                SHOP
+              </Link>
             </li>
             <li>
-              <Link to="/news">NEWS</Link>
+              <Link onClick={() => setBurger(true)} to="/news">
+                NEWS
+              </Link>
             </li>
             {user.avatar && (
               <li>
-                <Link to="/profile">PROFILE</Link>
+                <Link onClick={() => setBurger(true)} to="/profile">
+                  PROFILE
+                </Link>
               </li>
             )}
             {user.avatar && (
               <li>
-                <Link to="/chat">CHAT</Link>
+                <Link onClick={() => setBurger(true)} to="/chat">
+                  CHAT
+                </Link>
               </li>
             )}
             <li style={{ color: "#fff" }}>
-              <Link to="/cart">
+              <Link onClick={() => setBurger(true)} to="/cart">
                 <FaCartShopping />
                 <span>{cartItems.length}</span>
               </Link>
@@ -59,21 +77,23 @@ export const Header = () => {
           </ul>
         </nav>
 
-        {!user.avatar && (
-          <div>
-            <button onClick={onOpen}>Sing-in</button>
-            <button onClick={onOpen}>Sing-up</button>
-          </div>
-        )}
+        <div className="btn-sing">
+          {!user.avatar && (
+            <div className="header-btn">
+              <button onClick={onOpen}>Sing-in</button>
+              <button onClick={onOpen}>Sing-up</button>
+            </div>
+          )}
 
-        {user.avatar && (
-          <div>
-            <button onClick={() => exitUser()}>Exit</button>
-          </div>
-        )}
+          {user.avatar && (
+            <div className="header-btn">
+              <button onClick={() => exitUser()}>Exit</button>
+            </div>
+          )}
 
-        <div className="mobile-hamb">
-          <span></span>
+          <div onClick={() => closeBurger(!burger)} className="mobile-hamb ">
+            <span></span>
+          </div>
         </div>
       </div>
 
