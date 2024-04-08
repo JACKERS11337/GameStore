@@ -29,6 +29,7 @@ export const Header = () => {
     burger === false
       ? (document.body.style.overflow = "hidden")
       : (document.body.style.overflow = "unset");
+
     setBurger(burger);
   }
 
@@ -36,7 +37,7 @@ export const Header = () => {
     <header>
       <div className="container">
         <div className="header-logo">
-          <Link onClick={() => setBurger(true)} to="/">
+          <Link onClick={() => closeBurger(true)} to="/">
             <img src={logo} alt="logo" />
             <span className="logo">GAME-STORE</span>
           </Link>
@@ -45,31 +46,29 @@ export const Header = () => {
         <nav className={burger ? "active" : ""}>
           <ul>
             <li>
-              <Link onClick={() => setBurger(true)} to="/">
+              <Link onClick={() => closeBurger(true)} to="/">
                 SHOP
               </Link>
             </li>
-            <li>
-              <Link onClick={() => setBurger(true)} to="/news">
-                NEWS
-              </Link>
+            <li onClick={() => closeBurger(true)}>
+              <Link to="/news">NEWS</Link>
             </li>
             {user.avatar && (
               <li>
-                <Link onClick={() => setBurger(true)} to="/profile">
+                <Link onClick={() => closeBurger(true)} to="/profile">
                   PROFILE
                 </Link>
               </li>
             )}
             {user.avatar && (
               <li>
-                <Link onClick={() => setBurger(true)} to="/chat">
+                <Link onClick={() => closeBurger(true)} to="/chat">
                   CHAT
                 </Link>
               </li>
             )}
             <li style={{ color: "#fff" }}>
-              <Link onClick={() => setBurger(true)} to="/cart">
+              <Link onClick={() => closeBurger(true)} to="/cart">
                 <FaCartShopping />
                 <span>{cartItems.length}</span>
               </Link>

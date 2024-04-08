@@ -88,3 +88,23 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .profile {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+
+    .profile-container {
+      .profile-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Rubik", sans-serif;
+        position: relative;
+      }
+    }
+  }
+}

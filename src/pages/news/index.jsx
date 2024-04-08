@@ -7,7 +7,6 @@ import { NewsModal } from "../../components/modal/newsModal";
 
 export const News = () => {
   const [newsOpen, setNewsOpen] = useState(0);
-  console.log(newsOpen);
 
   function onOpen(id) {
     setNewsOpen(id);

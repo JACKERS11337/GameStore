@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 1.4rem;
     min-height: 80px;
 
     .header-logo {
@@ -62,12 +62,9 @@ header {
         }
 
         li:last-child {
-          position: absolute;
-          top: 3px;
-          left: 450px;
-
           a {
             display: flex;
+            align-items: center;
 
             span {
               color: #fff;
@@ -229,6 +226,7 @@ header {
         }
 
         .header-btn {
+          z-index: 3;
           display: flex;
           justify-content: flex-end;
           margin-right: 1rem;
