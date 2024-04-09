@@ -48,3 +48,33 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .swiper {
+    height: 25rem;
+    border-radius: 20px;
+    font-family: "Rubik", sans-serif;
+    top: 20px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 676px) {
+  .swiper {
+    height: 20rem;
+    border-radius: 20px;
+    font-family: "Rubik", sans-serif;
+    top: 20px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    height: 15rem;
+    border-radius: 20px;
+    font-family: "Rubik", sans-serif;
+    top: 20px;
+    margin-bottom: 35px;
+  }
+}
